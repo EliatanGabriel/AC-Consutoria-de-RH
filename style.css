@@ -159,15 +159,14 @@ body {
    IMAGEM HERO (foto da Anne)
 ================================ */
 .image-placeholder {
-  width: 420px;
-  height: 520px;
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 5;
+  height: auto;
   margin: 0 auto;
   border-radius: 25px;
   overflow: hidden;
   background: var(--card-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow);
 }
@@ -343,7 +342,12 @@ body {
    RESPONSIVO
 ================================ */
 @media (max-width: 992px) {
-  .hero-content,
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
   .sobre-content,
   .contato-content,
   .cards {
