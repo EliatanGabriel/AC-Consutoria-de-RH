@@ -318,7 +318,7 @@ body {
 } */
 
  /* BANCO DE TALENTOS */
-/* .talentos {
+.talentos {
   padding: 100px 0;
   background: var(--bg);
 }
@@ -370,7 +370,7 @@ body {
 
 .talentos-form button:hover {
   transform: translateY(-3px);
-} */
+}
 
 /* ================================
    CONTATO
@@ -505,4 +505,19 @@ body {
   .card {
     padding: 30px 25px;
   }
+}
+
+.banco-talentos {
+  padding: 120px 0;
+
+  background:
+    linear-gradient(
+      to bottom,
+      var(--bg-secondary),
+      #0b1220
+    );
+
+  border-top: 1px solid rgba(255,255,255,0.04);
+
+  border-bottom: 1px solid rgba(255,255,255,0.04);
 }
