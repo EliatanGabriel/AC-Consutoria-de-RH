@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -19,11 +19,9 @@
   </head>
 
   <body>
-
     <!-- HEADER -->
     <header class="header">
       <div class="container nav">
-
         <h1 class="logo">AC Consultoria de RH</h1>
 
         <nav>
@@ -34,182 +32,127 @@
             <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-
       </div>
     </header>
 
     <!-- HERO -->
     <section class="hero">
-
       <div class="container hero-content">
-
         <div class="hero-text">
+          <span class="tag"> Consultoria Estratégica em Recursos Humanos </span>
 
-          <span class="tag">
-            Consultoria Estratégica em Recursos Humanos
-          </span>
-
-          <h2>
-            Desenvolvendo pessoas,
-            fortalecendo empresas.
-          </h2>
+          <h2>Desenvolvendo pessoas, fortalecendo empresas.</h2>
 
           <p>
             A AC Consultoria de RH oferece soluções inteligentes para
             recrutamento, desenvolvimento profissional e gestão de talentos.
           </p>
 
-          <a href="#contato" class="btn">
-            Entrar em Contato
-          </a>
-
+          <a href="#contato" class="btn"> Entrar em Contato </a>
         </div>
 
         <div class="hero-image">
-
           <div class="image-placeholder">
-            <img
-              src="img/profile-anne-jpeg.jpeg"
-              alt="Consultora de RH"
-            />
+            <img src="img/profile-anne-jpeg.jpeg" alt="Consultora de RH" />
           </div>
-
         </div>
-
       </div>
-
     </section>
 
     <!-- SOBRE -->
     <section class="sobre" id="sobre">
-
       <div class="container sobre-content">
-
         <div class="sobre-image">
-
           <div class="img-placeholder">
-            <img
-              src="img/logo-ofcc.png"
-              alt="Logo AC Consultoria"
-            />
+            <img src="img/logo-ofcc.png" alt="Logo AC Consultoria" />
           </div>
-
         </div>
 
         <div class="sobre-text">
-
           <h2>AC Consultoria de RH</h2>
 
           <p>
-            Prazer, sou Anne, consultora de RH e especialista em
-            Recrutamento e Seleção, atuando também com Treinamento
-            e Desenvolvimento, Consultoria Organizacional,
-            Pesquisa de Clima Organizacional e estratégias voltadas
-            para desenvolvimento de pessoas e crescimento empresarial.
+            Prazer, sou Anne, consultora de RH e especialista em Recrutamento e
+            Seleção, atuando também com Treinamento e Desenvolvimento,
+            Consultoria Organizacional, Pesquisa de Clima Organizacional e
+            estratégias voltadas para desenvolvimento de pessoas e crescimento
+            empresarial.
           </p>
 
           <p>
-            A AC Consultoria de RH conecta empresas aos profissionais
-            certos por meio de processos seletivos estratégicos,
-            humanizados e assertivos.
+            A AC Consultoria de RH conecta empresas aos profissionais certos por
+            meio de processos seletivos estratégicos, humanizados e assertivos.
           </p>
 
           <p>
-            Atendemos empresas de todo o Brasil com serviços 100%
-            online e personalizados.
+            Atendemos empresas de todo o Brasil com serviços 100% online e
+            personalizados.
           </p>
-
         </div>
-
       </div>
-
     </section>
 
     <!-- SERVIÇOS -->
     <section class="servicos" id="servicos">
-
       <div class="container">
-
         <div class="section-title">
-
           <h2>Nossos Serviços</h2>
 
-          <p>
-            Soluções estratégicas para potencializar resultados.
-          </p>
-
+          <p>Soluções estratégicas para potencializar resultados.</p>
         </div>
 
         <div class="cards">
-
           <div class="card">
             <h3>Recrutamento e Seleção</h3>
 
             <p>
-              Processo estruturado para encontrar
-              o profissional ideal para sua empresa.
+              Processo estruturado para encontrar o profissional ideal para sua
+              empresa.
             </p>
           </div>
 
           <div class="card">
             <h3>Hunter Profissional</h3>
 
-            <p>
-              Busca estratégica de talentos altamente qualificados.
-            </p>
+            <p>Busca estratégica de talentos altamente qualificados.</p>
           </div>
 
           <div class="card">
             <h3>Triagem de Currículos</h3>
 
             <p>
-              Avaliação criteriosa de currículos
-              e competências profissionais.
+              Avaliação criteriosa de currículos e competências profissionais.
             </p>
           </div>
 
           <div class="card">
             <h3>Consultoria Organizacional</h3>
 
-            <p>
-              Diagnóstico estratégico e melhoria de processos internos.
-            </p>
+            <p>Diagnóstico estratégico e melhoria de processos internos.</p>
           </div>
 
           <div class="card">
             <h3>Pesquisa de Clima</h3>
 
-            <p>
-              Identificação de melhorias no ambiente corporativo.
-            </p>
+            <p>Identificação de melhorias no ambiente corporativo.</p>
           </div>
 
           <div class="card">
             <h3>Plano Estratégico</h3>
 
-            <p>
-              Desenvolvimento de estratégias para crescimento empresarial.
-            </p>
+            <p>Desenvolvimento de estratégias para crescimento empresarial.</p>
           </div>
-
         </div>
-
       </div>
-
     </section>
 
     <!-- BANCO DE TALENTOS -->
     <section class="banco-talentos" id="talentos">
-
       <div class="container">
-
         <div class="section-title">
           <h2>Banco de Talentos</h2>
 
-          <p>
-            Cadastre seu currículo e faça parte
-            do nosso banco de talentos.
-          </p>
+          <p>Cadastre seu currículo e faça parte do nosso banco de talentos.</p>
         </div>
 
         <form
@@ -218,22 +161,11 @@
           enctype="multipart/form-data"
           class="talentos-form"
         >
+          <input type="hidden" name="_captcha" value="false" />
 
-          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="nome" placeholder="Seu nome" required />
 
-          <input
-            type="text"
-            name="nome"
-            placeholder="Seu nome"
-            required
-          />
-
-          <input
-            type="email"
-            name="email"
-            placeholder="Seu e-mail"
-            required
-          />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
 
           <input
             type="tel"
@@ -242,11 +174,7 @@
             required
           />
 
-          <input
-            type="text"
-            name="cargo"
-            placeholder="Cargo de interesse"
-          />
+          <input type="text" name="cargo" placeholder="Cargo de interesse" />
 
           <input
             type="file"
@@ -255,31 +183,20 @@
             required
           />
 
-          <button type="submit">
-            Enviar Cadastro
-          </button>
-
+          <button type="submit">Enviar Cadastro</button>
         </form>
-
       </div>
-
     </section>
 
     <!-- CONTATO -->
     <section class="contato" id="contato">
-
       <div class="container contato-content">
-
         <div class="contato-info">
-
           <h2>Entre em Contato</h2>
 
-          <p>
-            Fale conosco através das redes sociais ou WhatsApp.
-          </p>
+          <p>Fale conosco através das redes sociais ou WhatsApp.</p>
 
           <div class="social-links">
-
             <a
               href="https://www.instagram.com/ac.consultoriarh/"
               target="_blank"
@@ -294,52 +211,27 @@
               LinkedIn
             </a>
 
-            <a
-              href="mailto:acconsultoria@gmail.com"
-              target="_blank"
-            >
+            <a href="mailto:acconsultoria@gmail.com" target="_blank">
               E-mail
             </a>
 
-            <a
-              href="https://wa.me/5511956293702"
-              target="_blank"
-            >
-              WhatsApp
-            </a>
-
+            <a href="https://wa.me/5511956293702" target="_blank"> WhatsApp </a>
           </div>
-
         </div>
 
         <div class="contato-image">
-
           <div class="image-placeholder">
-            <img
-              src="img/profile-contato-anne.jpeg"
-              alt="Contato"
-            />
+            <img src="img/profile-contato-anne.jpeg" alt="Contato" />
           </div>
-
         </div>
-
       </div>
-
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-
       <div class="container">
-
-        <p>
-          © 2026 AC Consultoria de RH —
-          Todos os direitos reservados.
-        </p>
-
+        <p>© 2026 AC Consultoria de RH — Todos os direitos reservados.</p>
       </div>
-
     </footer>
-
   </body>
 </html>

@@ -317,7 +317,7 @@ body {
   font-size: 0.95rem;
 } */
 
- /* BANCO DE TALENTOS */
+/* BANCO DE TALENTOS */
 .talentos {
   padding: 100px 0;
   background: var(--bg);
@@ -510,14 +510,9 @@ body {
 .banco-talentos {
   padding: 120px 0;
 
-  background:
-    linear-gradient(
-      to bottom,
-      var(--bg-secondary),
-      #0b1220
-    );
+  background: linear-gradient(to bottom, var(--bg-secondary), #0b1220);
 
-  border-top: 1px solid rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
 
-  border-bottom: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
