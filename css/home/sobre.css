@@ -1,0 +1,11 @@
+.sobre {
+  padding: 100px 0;
+  background: var(--bg-secondary);
+}
+
+.sobre-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}

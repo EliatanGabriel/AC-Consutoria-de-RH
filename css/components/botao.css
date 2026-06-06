@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+  padding: 15px 28px;
+  background: var(--button-bg);
+  color: var(--button-text);
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--button-hover);
+  transform: translateY(-3px);
+}

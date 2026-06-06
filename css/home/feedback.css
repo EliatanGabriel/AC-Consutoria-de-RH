@@ -1,0 +1,40 @@
+.feedbacks {
+  padding: 100px 0;
+  background: var(--bg);
+}
+
+.feedback-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.feedback-card {
+  background: var(--card-bg);
+  padding: 40px 30px;
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+  border: 1px solid var(--border-color);
+}
+
+.feedback-card:hover {
+  transform: translateY(-8px);
+}
+
+.feedback-text {
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.feedback-card h4 {
+  color: var(--text-dark);
+  margin-bottom: 5px;
+}
+
+.feedback-card span {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}

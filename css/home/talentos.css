@@ -1,0 +1,63 @@
+.talentos {
+  padding: 100px 0;
+  background: var(--bg);
+}
+
+.talentos-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.talentos-form input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.talentos-form input:focus {
+  border-color: #111;
+}
+
+.upload-label {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.talentos-form button {
+  padding: 16px;
+  border: none;
+  border-radius: 14px;
+  background: #111;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.talentos-form button:hover {
+  transform: translateY(-3px);
+}
+
+.banco-talentos {
+  padding: 120px 0;
+
+  background: linear-gradient(to bottom, var(--bg-secondary), #0b1220);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}

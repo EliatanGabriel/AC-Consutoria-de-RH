@@ -1,0 +1,68 @@
+@media (max-width: 992px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .sobre-content,
+  .contato-content,
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .section-title h2,
+  .sobre-text h2,
+  .contato-info h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero {
+    padding-top: 120px;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .image-placeholder {
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-text h2 {
+    font-size: 1.7rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    padding: 30px 25px;
+  }
+}
+

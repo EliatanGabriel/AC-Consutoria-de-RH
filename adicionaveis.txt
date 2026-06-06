@@ -1,0 +1,46 @@
+    <!-- FEEDBACKS -->
+    <!-- <section class="feedbacks" id="feedbacks">
+      <div class="container">
+        <div class="section-title">
+          <h2>O que nossos clientes dizem</h2>
+
+          <p>
+            Feedbacks de empresas e profissionais que confiaram em nosso trabalho.
+          </p>
+        </div>
+
+        <div class="feedback-cards">
+          <div class="feedback-card">
+            <p class="feedback-text">
+              “Excelente atendimento e processo seletivo muito assertivo.
+              Conseguimos contratar profissionais alinhados à cultura da empresa.”
+            </p>
+
+            <h4>Mariana Souza</h4>
+            <span>Gestora Administrativa</span>
+          </div>
+
+          <div class="feedback-card">
+            <p class="feedback-text">
+              “A consultoria trouxe mais organização e eficiência para nosso RH.
+              Atendimento humanizado e muito profissional.”
+            </p>
+
+            <h4>Carlos Mendes</h4>
+            <span>Diretor Comercial</span>
+          </div>
+
+          <div class="feedback-card">
+            <p class="feedback-text">
+              “Processo rápido, transparente e com excelente suporte durante todas as etapas.”
+            </p>
+
+            <h4>Fernanda Lima</h4>
+            <span>Coordenadora de Pessoas</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    

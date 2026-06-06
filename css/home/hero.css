@@ -1,0 +1,39 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, var(--bg), var(--bg-secondary));
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.tag {
+  display: inline-block;
+  padding: 10px 18px;
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--primary);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+.hero-text p {
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 35px;
+  font-size: 1rem;
+}

@@ -1,0 +1,48 @@
+.image-placeholder {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 25px;
+  overflow: hidden;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Correção da linha: a imagem do logo
+   não tem borda lateral, só sombra e cantos redondos */
+.img-placeholder {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: white; /* fundo branco para o logo */
+}
+
+.img-placeholder img {
+  display: block;
+  width: 100%;
+  height: auto; /* altura automática — sem espaço sobrando */
+  object-fit: contain;
+}
+
+.sobre-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+.sobre-text p {
+  line-height: 1.9;
+  color: var(--text-light);
+  margin-bottom: 15px;
+}

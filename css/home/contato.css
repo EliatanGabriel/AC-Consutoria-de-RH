@@ -1,0 +1,46 @@
+.contato {
+  padding: 100px 0;
+  background: var(--bg-secondary);
+}
+
+.contato-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+.contato-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+.contato-info p {
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 16px 20px;
+  border-radius: 14px;
+  background: var(--card-bg);
+  color: var(--link-color);
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid var(--border-color);
+}
+
+.social-links a:hover {
+  background: var(--button-hover);
+  transform: translateY(-3px);
+  color: white;
+}
