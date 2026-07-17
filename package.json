@@ -1,0 +1,27 @@
+{
+  "name": "ac-consutoria",
+  "version": "1.0.0",
+  "description": "Sistema desenvolvido para gerenciamento de recrutamento, seleção e prestação de serviços, permitindo a interação entre empresas, prestadores de serviço e administradores.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliatanGabriel/AC-Consutoria-de-RH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EliatanGabriel/AC-Consutoria-de-RH/issues"
+  },
+  "homepage": "https://github.com/EliatanGabriel/AC-Consutoria-de-RH#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
