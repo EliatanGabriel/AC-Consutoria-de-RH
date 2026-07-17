@@ -1,104 +1,77 @@
 # AC Consultoria de RH
 
-Sistema desenvolvido para gerenciamento de recrutamento, seleção e prestação de serviços, permitindo a interação entre empresas, prestadores de serviço e administradores.
+Site institucional desenvolvido para a **AC Consultoria de RH**, com o objetivo de apresentar a empresa, seus serviços e permitir que candidatos cadastrem seus currículos para futuras oportunidades de emprego.
+
+---
+
+## Objetivo
+
+O projeto tem como finalidade facilitar o contato entre candidatos e a equipe de Recursos Humanos da AC Consultoria de RH.
+
+Os usuários podem conhecer a empresa e realizar seu cadastro para que seus dados sejam analisados pela equipe de RH e encaminhados para vagas compatíveis com seu perfil.
+
+---
 
 ## Funcionalidades
 
-### Empresas
-- Cadastro e autenticação
-- Criação de demandas
-- Gerenciamento de demandas
-- Acompanhamento de candidatos
-- Gerenciamento do perfil
+- Página inicial institucional
+- Apresentação da empresa
+- Informações sobre os serviços prestados
+- Formulário para cadastro de candidatos
+- Envio de currículo
+- Área para envio de currículo (PDF)
+- Contato com a empresa
+- Layout responsivo
 
-### Prestadores
-- Cadastro e autenticação
-- Atualização de perfil
-- Envio de documentos
-- Visualização de oportunidades
-- Aceite de demandas
-- Histórico de serviços
+---
 
-### Painel Administrativo
-- Gerenciamento de usuários
-- Aprovação de cadastros
-- Gerenciamento de empresas
-- Gerenciamento de prestadores
-- Controle de demandas
-- Relatórios
-- Monitoramento do sistema
-
-## Tecnologias
-
-O projeto utiliza tecnologias modernas para desenvolvimento web.
-
-Exemplo:
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
-- PHP
-- MySQL
 
-*(Atualize esta lista conforme as tecnologias realmente utilizadas.)*
+---
 
-## Estrutura do Projeto
+## Como Executar
 
-```
-/
-├── admin/
-├── assets/
-├── css/
-├── js/
-├── pages/
-├── uploads/
-├── api/
-└── README.md
-```
-
-## Instalação
-
-1. Clone o repositório
+1. Clone o repositório.
 
 ```bash
-git clone https://github.com/EliatanGabriel/ac-consultoria-rh.git
+git clone https://github.com/EliatanGabriel/ac-consultoria.git
 ```
 
-2. Entre na pasta
+2. Abra a pasta do projeto.
 
-```bash
-cd ac-consultoria-rh
-```
+3. Execute o arquivo `index.html` em seu navegador ou utilize uma extensão como **Live Server** no Visual Studio Code.
 
-3. Configure o banco de dados.
+---
 
-4. Ajuste o arquivo de configuração.
+## Público-alvo
 
-5. Execute o servidor.
+- Candidatos em busca de oportunidades de emprego.
+- Empresas interessadas nos serviços da AC Consultoria de RH.
 
-## Fluxo do Sistema
+---
 
-Empresa
-↓
-Cria Demanda
-↓
-Prestador Visualiza
-↓
-Prestador Aceita
-↓
-Empresa Acompanha
-↓
-Administrador Gerencia Todo o Processo
+## Responsividade
 
-## Contribuição
+O site foi desenvolvido para funcionar em:
 
-Este projeto possui desenvolvimento interno. Alterações devem seguir os padrões definidos pela equipe de desenvolvimento.
+- Desktop
+- Tablet
+- Smartphone
 
-## Autores
+---
 
-Equipe de Desenvolvimento
-AC Consultoria de RH
+## Desenvolvedor
 
-## Versão
+Projeto desenvolvido para a **AC Consultoria de RH**.
 
-Versão atual: 1.0.0
+---
+
+## Licença
+
+Este projeto é de propriedade da **AC Consultoria de RH**.
+
+Todos os direitos reservados.
