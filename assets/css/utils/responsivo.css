@@ -64,5 +64,13 @@
   .card {
     padding: 30px 25px;
   }
+
+  .hero-talentos {
+    padding: 130px 20px 80px;
+  }
+
+  .talentos-form {
+    padding: 25px;
+  }
 }
 

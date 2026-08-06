@@ -19,30 +19,16 @@
   display: block;
 }
 
-/* Correção da linha: a imagem do logo
-   não tem borda lateral, só sombra e cantos redondos */
 .img-placeholder {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: var(--shadow);
-  background: white; /* fundo branco para o logo */
+  background: white;
 }
 
 .img-placeholder img {
   display: block;
   width: 100%;
-  height: auto; /* altura automática — sem espaço sobrando */
+  height: auto;
   object-fit: contain;
-}
-
-.sobre-text h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: var(--text-dark);
-}
-
-.sobre-text p {
-  line-height: 1.9;
-  color: var(--text-light);
-  margin-bottom: 15px;
 }

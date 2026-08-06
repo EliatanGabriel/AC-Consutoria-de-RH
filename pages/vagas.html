@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>AC Consultoria de RH</title>
+    <title>Vagas | AC Consultoria de RH</title>
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/pages/vagas.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,18 +20,50 @@
   </head>
 
   <body>
-    <!-- HEADER -->
+    <!-- Cabeçalho -->
     <header class="header">
       <div class="container nav">
-        <a href="./"><h1 class="logo">AC Consultoria de RH</h1></a>
+        <a href="../index.html">
+          <h1 class="logo">AC Consultoria de RH</h1>
+        </a>
+
         <nav>
           <ul class="menu">
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="#talentos">Talentos</a></li>
-            <li><a href="#Vagas">Vagas</a></li>
+            <li><a href="../index.html#inicio"> Inicio </a></li>
+            <li><a href="../index.html#sobre"> Sobre </a></li>
+            <li><a href="../index.html#servicos"> Serviços </a></li>
+            <li><a href="../index.html#contato"> Contato </a></li>
+            <li><a href="bancotalentos.html"> Talentos </a></li>
+            <li><a href="vagas.html"> Vagas </a></li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <!-- Hero -->
+    <section class="hero-vagas">
+      <div class="container">
+        <h1>Vagas em Aberto</h1>
+        <p>Encontre a oportunidade ideal para o seu momento profissional.</p>
+      </div>
+    </section>
+
+    <!-- Lista de vagas -->
+    <section class="vagas-lista">
+      <div class="container">
+        <div id="vagas-container" class="vagas-grid">
+          <p class="vagas-carregando">Carregando vagas...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 AC Consultoria de RH. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="../assets/js/vagas.js"></script>
+  </body>
+</html>

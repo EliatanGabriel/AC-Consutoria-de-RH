@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login Admin | AC Consultoria de RH</title>
+
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../assets/css/admin/admin.css" />
+  </head>
+
+  <body class="admin-body">
+    <main class="admin-login">
+      <form class="admin-login-card" id="login-form">
+        <h1>Painel Admin</h1>
+        <p class="admin-login-sub">Acesso restrito à AC Consultoria de RH</p>
+
+        <label for="username">Usuário</label>
+        <input id="username" name="username" type="text" required autocomplete="username" />
+
+        <label for="password">Senha</label>
+        <input id="password" name="password" type="password" required autocomplete="current-password" />
+
+        <p class="admin-error" id="login-error" hidden></p>
+
+        <button class="btn btn-block" type="submit">Entrar</button>
+
+        <a class="admin-back" href="../index.html">← Voltar ao site</a>
+      </form>
+    </main>
+
+    <script src="../../assets/js/admin/login.js"></script>
+  </body>
+</html>

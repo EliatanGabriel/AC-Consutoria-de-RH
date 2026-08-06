@@ -1,0 +1,110 @@
+.hero-vagas {
+  padding: 170px 20px 120px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg));
+}
+
+.hero-vagas h1 {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 25px;
+}
+
+.hero-vagas p {
+  font-size: 1.16rem;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+.vagas-lista {
+  padding: 100px 0;
+  background: var(--bg);
+  min-height: 300px;
+}
+
+.vagas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.vaga-card {
+  background: var(--card-bg);
+  padding: 35px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: 0.3s;
+}
+
+.vaga-card:hover {
+  transform: translateY(-8px);
+}
+
+.vaga-card h2 {
+  color: var(--text-dark);
+  font-size: 1.5rem;
+}
+
+.vaga-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.vaga-badge {
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--primary);
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.vaga-local,
+.vaga-salario {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.vaga-descricao {
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+.vaga-requisitos h3 {
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vaga-requisitos p {
+  color: var(--text-muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.vaga-card .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.vagas-vazio {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  .hero-vagas {
+    padding: 130px 20px 80px;
+  }
+}

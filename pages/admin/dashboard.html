@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Painel Admin | AC Consultoria de RH</title>
+
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../assets/css/admin/admin.css" />
+  </head>
+
+  <body class="admin-body">
+    <header class="admin-topbar">
+      <a class="admin-topbar-logo" href="../index.html">AC Consultoria de RH</a>
+      <nav class="admin-topbar-nav">
+        <a href="../../../index.html" target="_blank">Ver site</a>
+        <button id="logout-btn" class="btn btn-sm">Sair</button>
+      </nav>
+    </header>
+
+    <main class="admin-main">
+      <div class="admin-head">
+        <div>
+          <h1 id="admin-view-title">Gerenciar Vagas</h1>
+          <p id="admin-view-sub">Adicione, edite e exclua as vagas exibidas no site.</p>
+        </div>
+        <button id="nova-vaga-btn" class="btn">+ Nova Vaga</button>
+      </div>
+
+      <div class="admin-tabs">
+        <button class="admin-tab is-active" type="button" data-tab="vagas">Vagas</button>
+        <button class="admin-tab" type="button" data-tab="cadastros">Banco de Talentos</button>
+      </div>
+
+      <div id="view-vagas">
+
+      <!-- Formulário (oculto até salvar/editar) -->
+      <form id="vaga-form" class="admin-form" hidden>
+        <input type="hidden" id="vaga-id" name="id" />
+
+        <div class="admin-form-grid">
+          <div class="admin-field">
+            <label for="titulo">Título *</label>
+            <input id="titulo" name="titulo" type="text" required />
+          </div>
+
+          <div class="admin-field">
+            <label for="salario">Salário</label>
+            <input id="salario" name="salario" type="text" placeholder="R$ 4.000,00" />
+          </div>
+
+          <div class="admin-field">
+            <label for="tipo">Tipo</label>
+            <input id="tipo" name="tipo" type="text" placeholder="CLT / PJ / Estágio" />
+          </div>
+
+          <div class="admin-field">
+            <label for="local">Local</label>
+            <input id="local" name="local" type="text" placeholder="Remoto / São Paulo - SP" />
+          </div>
+
+          <div class="admin-field admin-field-full">
+            <label for="descricao">Descrição *</label>
+            <textarea id="descricao" name="descricao" rows="3" required></textarea>
+          </div>
+
+          <div class="admin-field admin-field-full">
+            <label for="requisitos">Requisitos</label>
+            <textarea id="requisitos" name="requisitos" rows="3" placeholder="Cada item em uma linha."></textarea>
+          </div>
+        </div>
+
+        <div class="admin-form-actions">
+          <button type="submit" class="btn" id="save-btn">Salvar Vaga</button>
+          <button type="button" class="btn btn-ghost" id="cancel-btn">Cancelar</button>
+        </div>
+      </form>
+
+      <!-- Lista de vagas -->
+      <section class="admin-list">
+        <div class="admin-list-header">
+          <span>Vaga</span>
+          <span>Tipo</span>
+          <span>Status</span>
+          <span>Ações</span>
+        </div>
+        <div id="vagas-list"></div>
+      </section>
+      </div>
+
+      <!-- Banco de Talentos -->
+      <div id="view-cadastros" hidden>
+        <h2 class="admin-section-title">Candidatos cadastrados</h2>
+
+        <section class="admin-list admin-list--cadastros">
+          <div class="admin-list-header">
+            <span>Candidato</span>
+            <span>Contato</span>
+            <span>Cadastro</span>
+            <span>Ações</span>
+          </div>
+          <div id="cadastros-list"></div>
+        </section>
+      </div>
+    </main>
+
+    <script src="../../assets/js/admin/dashboard.js"></script>
+  </body>
+</html>

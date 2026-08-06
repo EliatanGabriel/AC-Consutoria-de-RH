@@ -6,3 +6,13 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Node
+.env
+
+# Banco de dados local
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
