@@ -123,7 +123,18 @@
           enctype="multipart/form-data"
           class="talentos-form"
         >
-          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_captcha" value="true" />
+
+          <input type="hidden" name="vaga" id="vaga" />
+
+          <label> Vaga de interesse </label>
+
+          <input
+            type="text"
+            id="vaga-nome"
+            placeholder="Selecione uma vaga na página de Vagas"
+            readonly
+          />
 
           <input type="text" name="nome" placeholder="Nome completo" required />
 
@@ -159,5 +170,7 @@
         <p>© 2026 AC Consultoria de RH. Todos os direitos reservados.</p>
       </div>
     </footer>
+
+    <script src="../assets/js/bancotalentos.js"></script>
   </body>
 </html>
