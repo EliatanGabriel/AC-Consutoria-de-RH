@@ -1,63 +1,149 @@
-.talentos {
+.hero-talentos {
+  padding: 170px 20px 120px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg));
+}
+
+.hero-talentos .container {
+  max-width: 850px;
+  margin: auto;
+}
+
+.hero-talentos h1 {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 25px;
+}
+
+.hero-talentos p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 40px;
+}
+
+.como-funciona {
+  padding: 100px 0;
+  background: var(--bg);
+}
+
+.cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 35px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: var(--text-dark);
+}
+
+.card p {
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.beneficios {
+  padding: 100px 0;
+  background: var(--bg-secondary);
+}
+
+.beneficios-lista {
+  max-width: 700px;
+  margin: 50px auto;
+  list-style: none;
+  padding: 0;
+}
+
+.beneficios-lista li {
+  background: var(--card-bg);
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+}
+
+.beneficios-lista li:hover {
+  transform: translateX(10px);
+}
+
+.banco-talentos {
   padding: 100px 0;
   background: var(--bg);
 }
 
 .talentos-form {
-  max-width: 700px;
-  margin: 0 auto;
-  background: var(--card-bg);
+  max-width: 750px;
+  margin: 50px auto;
   padding: 40px;
+  background: var(--card-bg);
   border-radius: 22px;
-  box-shadow: var(--shadow);
   border: 1px solid var(--border-color);
-
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.talentos-form input {
+.talentos-form input,
+.talentos-form textarea {
   width: 100%;
   padding: 16px;
   border-radius: 12px;
   border: 1px solid var(--border-color);
-  outline: none;
   font-size: 1rem;
   font-family: inherit;
+  outline: none;
 }
 
-.talentos-form input:focus {
+.talentos-form textarea {
+  height: 140px;
+  resize: none;
+}
+
+.talentos-form input:focus,
+.talentos-form textarea:focus {
   border-color: #111;
 }
 
-.upload-label {
-  color: var(--text-dark);
-  font-weight: 500;
-}
-
-.talentos-form button {
-  padding: 16px;
-  border: none;
-  border-radius: 14px;
-  background: #111;
-  color: white;
-  font-size: 1rem;
+.talentos-form label {
   font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
-.talentos-form button:hover {
-  transform: translateY(-3px);
+.talentos-form .btn {
+  width: 100%;
 }
 
-.banco-talentos {
-  padding: 120px 0;
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
 
-  background: linear-gradient(to bottom, var(--bg-secondary), #0b1220);
+@media (max-width: 600px) {
+  .hero-talentos {
+    padding: 130px 20px 80px;
+  }
 
-  border-top: 1px solid rgba(255, 255, 255, 0.04);
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  .talentos-form {
+    padding: 25px;
+  }
 }

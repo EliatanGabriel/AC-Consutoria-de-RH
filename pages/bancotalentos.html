@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Banco de Talentos | AC Consultoria de RH</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="container nav">
+        <a href="../index.html">
+          <h1 class="logo">AC Consultoria de RH</h1>
+        </a>
+
+        <nav>
+          <ul class="menu">
+            <li><a href="../index.html#inicio"> Inicio </a></li>
+            <li><a href="../index.html#sobre"> Sobre </a></li>
+            <li><a href="../index.html#servicos"> Serviços </a></li>
+            <li><a href="../index.html#contato"> Contato </a></li>
+            <li><a href="bancotalentos.html"> Talentos </a></li>
+            <li><a href="vagas.html"> Vagas </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero-talentos">
+      <div class="container">
+        <h1>Banco de Talentos</h1>
+
+        <p>
+          Cadastre seu currículo gratuitamente e faça parte do nosso banco de
+          talentos. Quando surgir uma oportunidade compatível com seu perfil,
+          nossa equipe poderá entrar em contato.
+        </p>
+
+        <a href="#cadastro" class="btn"> Cadastrar Currículo </a>
+      </div>
+    </section>
+
+    <!-- Como funciona -->
+
+    <section class="como-funciona">
+      <div class="container">
+        <div class="section-title">
+          <h2>Como funciona?</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>1. Cadastro</h3>
+
+            <p>Preencha seus dados e envie seu currículo.</p>
+          </div>
+
+          <div class="card">
+            <h3>2. Análise</h3>
+
+            <p>Nossa equipe avalia seu perfil profissional.</p>
+          </div>
+
+          <div class="card">
+            <h3>3. Contato</h3>
+
+            <p>Caso exista uma vaga compatível, entraremos em contato.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefícios -->
+
+    <section class="beneficios">
+      <div class="container">
+        <div class="section-title">
+          <h2>Por que participar?</h2>
+        </div>
+
+        <ul class="beneficios-lista">
+          <li>✔ Cadastro gratuito.</li>
+
+          <li>✔ Oportunidades em diversas áreas.</li>
+
+          <li>✔ Empresas parceiras.</li>
+
+          <li>✔ Processo seletivo organizado.</li>
+
+          <li>✔ Seus dados protegidos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Formulário -->
+
+    <section id="cadastro" class="banco-talentos">
+      <div class="container">
+        <div class="section-title">
+          <h2>Cadastre seu currículo</h2>
+
+          <p>Preencha suas informações profissionais.</p>
+        </div>
+
+        <form
+          action="https://formsubmit.co/consultoriarhasilva@gmail.com"
+          method="POST"
+          enctype="multipart/form-data"
+          class="talentos-form"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input type="text" name="nome" placeholder="Nome completo" required />
+
+          <input type="email" name="email" placeholder="E-mail" required />
+
+          <input type="tel" name="telefone" placeholder="WhatsApp" required />
+
+          <input type="text" name="cidade" placeholder="Cidade" />
+
+          <input type="text" name="cargo" placeholder="Cargo de interesse" />
+
+          <textarea
+            name="mensagem"
+            placeholder="Conte sua experiência profissional"
+          ></textarea>
+
+          <label> Anexe seu currículo: </label>
+
+          <input
+            type="file"
+            name="curriculo"
+            accept=".pdf,.doc,.docx"
+            required
+          />
+
+          <button class="btn" type="submit">Enviar Currículo</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 AC Consultoria de RH. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
