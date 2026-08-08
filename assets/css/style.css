@@ -1,14 +1,24 @@
-@import url(base/base.css);
+@import url(base/variables.css);
+@import url(base/reset.css);
+@import url(base/typography.css);
+
 @import url(layout/container.css);
 @import url(layout/header.css);
 @import url(layout/footer.css);
+
 @import url(components/botao.css);
 @import url(components/imagens.css);
 @import url(components/cards.css);
-@import url(home/hero.css);
-@import url(home/servicos.css);
-@import url(home/sobre.css);
-@import url(home/contato.css);
-@import url(home/talentos.css);
-@import url(home/feedback.css);
+@import url(components/section-title.css);
+@import url(components/tag.css);
+
+@import url(sections/hero.css);
+@import url(sections/servicos.css);
+@import url(sections/sobre.css);
+@import url(sections/contato.css);
+@import url(sections/feedback.css);
+
+@import url(pages/talentos.css);
+@import url(pages/vagas.css);
+
 @import url(utils/responsivo.css);

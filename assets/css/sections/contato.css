@@ -11,18 +11,6 @@
   text-align: center;
 }
 
-.hero-title {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: var(--text-dark);
-}
-
-.section-title-lg {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: var(--text-dark);
-}
-
 .social-links {
   display: flex;
   flex-direction: column;
@@ -32,11 +20,11 @@
 .social-links a {
   text-decoration: none;
   padding: 16px 20px;
-  border-radius: 14px;
+  border-radius: var(--radius-sm);
   background: var(--card-bg);
   color: var(--link-color);
   font-weight: 600;
-  transition: 0.3s;
+  transition: var(--transition);
   border: 1px solid var(--border-color);
 }
 

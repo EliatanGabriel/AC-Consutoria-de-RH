@@ -4,9 +4,9 @@
   background: var(--button-bg);
   color: var(--button-text);
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   font-weight: 600;
-  transition: 0.3s;
+  transition: var(--transition);
 }
 
 .btn:hover {

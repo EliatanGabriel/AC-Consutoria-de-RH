@@ -58,10 +58,10 @@
   background: var(--card-bg);
   padding: 20px;
   margin-bottom: 15px;
-  border-radius: 15px;
+  border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow);
-  transition: 0.3s;
+  transition: var(--transition);
 }
 
 .beneficios-lista li:hover {
@@ -78,7 +78,7 @@
   margin: 50px auto;
   padding: 40px;
   background: var(--card-bg);
-  border-radius: 22px;
+  border-radius: var(--radius-md);
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow);
   display: flex;
@@ -90,7 +90,7 @@
 .talentos-form textarea {
   width: 100%;
   padding: 16px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
   font-size: 1rem;
   font-family: inherit;
@@ -104,7 +104,7 @@
 
 .talentos-form input:focus,
 .talentos-form textarea:focus {
-  border-color: #111;
+  border-color: var(--primary);
 }
 
 .talentos-form label {

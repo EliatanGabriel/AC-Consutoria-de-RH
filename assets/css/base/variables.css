@@ -20,21 +20,13 @@
   --link-color: #60a5fa;
   --link-hover: #93c5fd;
 
+  --tag-bg: rgba(59, 130, 246, 0.15);
+
+  --radius-sm: 12px;
+  --radius-md: 22px;
+  --radius-lg: 25px;
+  --radius-pill: 50px;
+
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background: var(--bg);
-  color: var(--text-dark);
+  --transition: 0.3s;
 }

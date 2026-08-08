@@ -1,34 +1,32 @@
-.image-placeholder {
-  width: 100%;
-  max-width: 420px;
-  aspect-ratio: 4 / 5;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 25px;
+.image-card {
+  border-radius: var(--radius-lg);
   overflow: hidden;
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow);
 }
 
-.image-placeholder img {
+.image-card--portrait {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image-card--logo {
+  border-radius: var(--radius-md);
+  background: #ffffff;
+}
+
+.image-card img {
   width: 100%;
   height: 100%;
+  display: block;
   object-fit: cover;
   object-position: center;
-  display: block;
 }
 
-.img-placeholder {
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  background: white;
-}
-
-.img-placeholder img {
-  display: block;
-  width: 100%;
-  height: auto;
+.image-card--logo img {
   object-fit: contain;
 }

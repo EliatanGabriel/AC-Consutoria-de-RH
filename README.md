@@ -37,6 +37,12 @@ Basta abrir o arquivo `index.html` no navegador, ou usar o **Live Server** no Vi
 - `pages/vagas.html` — vagas em aberto
 - `pages/bancotalentos.html` — cadastro de currículo
 - `assets/css/` — folhas de estilo do site
+  - `base/` — variáveis, reset e tipografia
+  - `layout/` — container, header e footer
+  - `components/` — botões, cards, imagens, títulos e tags
+  - `sections/` — seções da página inicial (hero, serviços, sobre, contato, feedbacks)
+  - `pages/` — estilos específicos das páginas internas (vagas, talentos)
+  - `utils/` — media queries responsivas
 - `assets/js/vagas.js` — renderização das vagas
 - `assets/img/` — imagens do site
 

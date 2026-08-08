@@ -12,9 +12,9 @@
 .feedback-card {
   background: var(--card-bg);
   padding: 40px 30px;
-  border-radius: 22px;
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow);
-  transition: 0.3s;
+  transition: var(--transition);
   border: 1px solid var(--border-color);
 }
 

@@ -13,17 +13,6 @@
   align-items: center;
 }
 
-.tag {
-  display: inline-block;
-  padding: 10px 18px;
-  background: rgba(59, 130, 246, 0.15);
-  color: var(--primary);
-  border-radius: 50px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
 .hero-text h2 {
   font-size: 3.2rem;
   line-height: 1.2;

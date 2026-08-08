@@ -44,10 +44,8 @@
     font-size: 2rem;
   }
 
-  .image-placeholder {
-    border-radius: 25px;
-    overflow: hidden;
-    display: flex;
+  .hero-vagas {
+    padding: 130px 20px 80px;
   }
 }
 
@@ -73,4 +71,3 @@
     padding: 25px;
   }
 }
-
